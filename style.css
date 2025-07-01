@@ -1,0 +1,83 @@
+.khali{
+    border: none;
+}
+td{
+    height: 50px;
+    width: 50px;
+    text-transform: capitalize;
+    /* border: 2px solid black; */
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.h1{
+    text-align: center;
+    color: red;
+    padding: 10px 0px;
+}
+table{
+    
+    
+    margin: 10px auto;
+    border-collapse: separate;
+}
+
+.a1{
+    background-color: blue;
+    color: white;
+    
+}
+
+.a2{
+    background-color: purple;
+    
+   
+}
+
+.aqua{
+    background-color: aqua;
+    
+}
+
+.a3{
+    background-color: rgba(243, 33, 5, 0.918);
+    
+
+}
+body{
+    background-color: black;
+}
+.grey{
+    background-color: gray;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: yellowgreen;
+}
+.darkblue{
+    background-color: darkcyan;
+}
+.a1:hover,
+.a2:hover,
+.a3:hover,
+.aqua:hover,
+.darkblue:hover,
+.green:hover,
+.grey:hover,
+.orange:hover,
+.yellow:hover {
+    cursor: pointer;
+    background-color: hotpink;
+}
+h1:hover{
+    transform: translateY(-5px);
+    color: azure;
+}
